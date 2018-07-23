@@ -3,5 +3,5 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
       #基本属性
     url: jdbc:mysql://127.0.0.1:3306/quick?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
-    username: root
+    username: yhc
     password: 123456
