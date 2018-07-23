@@ -6,7 +6,7 @@
     <groupId>com.yhc.quick</groupId>
     <artifactId>quick</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>quick</name>
     <description>Demo project for Spring Boot</description>
@@ -52,14 +52,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>3.1.0</version>
-            <scope>provided</scope>
-        </dependency>
-
 
     </dependencies>
 
