@@ -3,7 +3,7 @@ package com.yhc.quick.service.impl;
 
 import com.yhc.quick.mapper.Word11Mapper;
 import com.yhc.quick.pojo.Word11;
-import com.yhc.quick.service.WordsService;
+import com.yhc.quick.service.IWordsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 @Service
-public class WordsServiceImpl implements WordsService {
+public class WordsServiceImpl implements IWordsService {
 
     private int times = 0;  // 用户请求次数
     private int step = 50;  // 每次请求返回的单词条数

@@ -2,7 +2,7 @@ package com.yhc.quick.controller;
 
 
 import com.yhc.quick.pojo.Word11;
-import com.yhc.quick.service.WordsService;
+import com.yhc.quick.service.IWordsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -14,7 +14,7 @@ import java.util.List;
 public class WordsController {
 
     @Autowired
-    private WordsService wordsService;
+    private IWordsService wordsService;
 //    private WordsDao wordsDao;
 
 //    @ResponseBody
